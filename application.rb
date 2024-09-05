@@ -94,5 +94,5 @@ def introduce(name = "Guest") # default value
     puts "Welcome, #{name}!"
 end
 
-introduce
-introduce("Charlie")
+introduce # execute the method by default value
+introduce("Charlie") # argument is provided
