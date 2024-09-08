@@ -1,4 +1,4 @@
-=begin
+
 def add(a, b)
     return a + b
 end
@@ -148,8 +148,6 @@ rescue NameError
 rescue StandardError => e
     puts "An error occurs : #{e.message}"
 end
-
-=end
 
 class Person
     def initialize(name, age)
